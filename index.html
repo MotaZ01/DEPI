@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 5</title>
+
+    <!-- 1. Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Red+Rose:wght@300..700&family=Share+Tech&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 2. Font Awesome -->
+    <link rel="stylesheet" href="assets/fownawsome/all.min.css" />
+
+    <!-- 3. Animate.css -->
+    <link rel="stylesheet" href="assets/ANIMATION/animate.min.css" />
+
+    <!-- 4. Bootstrap 5 (CSS) -->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+
+    <!-- 5. MDBootstrap (CSS) -->
+    <link rel="stylesheet" href="assets/MDB/css/mdb.min.css" />
+
+    <!-- 7. Your Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="mb-4 navbar navbar-expand-lg bg-body-tertiary">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          data-mdb-collapse-init
+          class="navbar-toggler"
+          type="button"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+              height="15"
+              alt="MDB Logo"
+              loading="lazy"
+            />
+          </a>
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
+          <a class="text-reset me-3" href="#">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+
+          <!-- Notifications -->
+          <div class="dropdown">
+            <a
+              data-mdb-dropdown-init
+              class="text-reset me-3 dropdown-toggle hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              aria-expanded="false"
+            >
+              <i class="fas fa-bell"></i>
+              <span class="badge rounded-pill badge-notification bg-danger"
+                >1</span
+              >
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item" href="#">Some news</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Another news</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Avatar -->
+          <div class="dropdown">
+            <a
+              data-mdb-dropdown-init
+              class="dropdown-toggle d-flex align-items-center hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuAvatar"
+              role="button"
+              aria-expanded="false"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                class="rounded-circle"
+                height="25"
+                alt="Black and White Portrait of a Man"
+                loading="lazy"
+              />
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuAvatar"
+            >
+              <li>
+                <a class="dropdown-item" href="#">My profile</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Settings</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Cards Section -->
+    <div class="container my-5">
+      <div class="row justify-content-center gap-3">
+        <!-- card1 -->
+        <div class="card m-2 col-lg-3 col-md-6 col-sm-12 shadow-sm border-0 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+          <div
+            class="bg-image hover-overlay"
+            data-mdb-ripple-init
+            data-mdb-ripple-color="light"
+          >
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp"
+              class="img-fluid rounded-top"
+              alt="Nature"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.15)"
+              ></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Nature Explorer</h5>
+            <p class="card-text text-muted">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read More</a>
+          </div>
+        </div>
+        <!-- card 1-->
+
+        <!-- card 2-->
+        <div class="card m-2 col-lg-3 col-md-6 col-sm-12 shadow-sm border-0 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+          <div
+            class="bg-image hover-overlay"
+            data-mdb-ripple-init
+            data-mdb-ripple-color="light"
+          >
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+              class="img-fluid rounded-top"
+              alt="Forest"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.15)"
+              ></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Mountain Trekking</h5>
+            <p class="card-text text-muted">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read More</a>
+          </div>
+        </div>
+        <!-- card2 -->
+
+        <!-- card 3-->
+        <div class="card m-2 col-lg-3 col-md-6 col-sm-12 shadow-sm border-0 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+          <div
+            class="bg-image hover-overlay"
+            data-mdb-ripple-init
+            data-mdb-ripple-color="light"
+          >
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"
+              class="img-fluid rounded-top"
+              alt="River"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.15)"
+              ></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Ocean Breeze</h5>
+            <p class="card-text text-muted">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read More</a>
+          </div>
+        </div>
+        <!-- card 3-->
+      </div>
+    </div>
+    <!-- Cards Section -->
+
+    <!-- ==============================================
+         New Section: Services & Features 
+         ============================================== -->
+    <section class="py-5 bg-body-tertiary">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="text-center mb-5 wow animate__animated animate__fadeInDown">
+          <span class="badge bg-primary px-3 py-2 rounded-pill mb-2">Our Services</span>
+          <h2 class="fw-bold">Why Choose Us</h2>
+          <p class="text-muted mx-auto" style="max-width: 600px;">
+            We deliver top quality digital experiences using modern frameworks, responsive designs, and smooth animations.
+          </p>
+        </div>
+
+        <div class="row g-4 text-center">
+          <!-- Feature 1 -->
+          <div class="col-md-6 col-lg-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body p-4">
+                <div class="rounded-circle bg-primary bg-opacity-10 text-primary d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                  <i class="fas fa-layer-group fa-2x"></i>
+                </div>
+                <h5 class="card-title fw-bold">Material Design</h5>
+                <p class="card-text text-muted small">
+                  Beautiful, clean interfaces following Google's modern Material Design standards.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="col-md-6 col-lg-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body p-4">
+                <div class="rounded-circle bg-success bg-opacity-10 text-success d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                  <i class="fas fa-mobile-screen-button fa-2x"></i>
+                </div>
+                <h5 class="card-title fw-bold">Fully Responsive</h5>
+                <p class="card-text text-muted small">
+                  Perfect look and performance across all screens from mobile to ultra-wide displays.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="col-md-6 col-lg-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body p-4">
+                <div class="rounded-circle bg-warning bg-opacity-10 text-warning d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                  <i class="fas fa-bolt fa-2x"></i>
+                </div>
+                <h5 class="card-title fw-bold">Fast & Smooth</h5>
+                <p class="card-text text-muted small">
+                  Powered by Animate.css and WOW.js for eye-catching scroll animations without lag.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="col-md-6 col-lg-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body p-4">
+                <div class="rounded-circle bg-info bg-opacity-10 text-info d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                  <i class="fas fa-shield-halved fa-2x"></i>
+                </div>
+                <h5 class="card-title fw-bold">Reliable Code</h5>
+                <p class="card-text text-muted small">
+                  Clean, well-structured, and compliant frontend code ready for production.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         MDB Footer (فوتر احترافي بـ MDBootstrap)
+         ============================================== -->
+    <footer class="text-center text-lg-start bg-dark text-white mt-auto">
+     
+      <!-- Section: Links -->
+      <section class="container text-center text-md-start mt-5 pt-5">
+        <div class="row mt-3">
+          <!-- Column 1: Company Info -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-primary"></i>Task 5 
+            </h6>
+            <p class="text-secondary small">
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis aspernatur dolorum sed distinctio harum qui, suscipit sunt. Optio, atque! Adipisci?
+            </p>
+          </div>
+
+          <!-- Column 2: Products -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Libraries</h6>
+            <p><a href="#!" class="text-secondary text-decoration-none small">MDBootstrap 5</a></p>
+            <p><a href="#!" class="text-secondary text-decoration-none small">Bootstrap 5</a></p>
+            <p><a href="#!" class="text-secondary text-decoration-none small">Font Awesome 7</a></p>
+            <p><a href="#!" class="text-secondary text-decoration-none small">Animate.css & WOW</a></p>
+          </div>
+
+          <!-- Column 3: Useful links -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+            <p><a href="#!" class="text-secondary text-decoration-none small">Documentation</a></p>
+            <p><a href="#!" class="text-secondary text-decoration-none small">Settings</a></p>
+            <p><a href="#!" class="text-secondary text-decoration-none small">Orders</a></p>
+            <p><a href="#!" class="text-secondary text-decoration-none small">Help Center</a></p>
+          </div>
+
+          <!-- Column 4: Contact -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-secondary small">
+            <h6 class="text-uppercase fw-bold mb-4 text-white">Contact</h6>
+            <p><i class="fas fa-home me-3 text-primary"></i> Cairo, Egypt</p>
+            <p><i class="fas fa-envelope me-3 text-primary"></i> moataz.mohamed.fawzy1@gmail.com</p>
+            <p><i class="fas fa-phone me-3 text-primary"></i> +20 111 209 6073</p>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Links -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2026 Copyright:
+        <a class="text-white fw-bold text-decoration-none" href="#">moataz</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!-- 4. Bootstrap 5 (JS Bundle) -->
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- 5. MDBootstrap (JS) -->
+    <script src="assets/MDB/js/mdb.umd.min.js"></script>
+
+    <!-- 6. WOW.js -->
+    <script src="assets/wow/wow.min.js"></script>
+
+    <!-- 8. Your Custom JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
